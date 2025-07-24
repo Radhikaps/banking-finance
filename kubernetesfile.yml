@@ -30,6 +30,6 @@ spec:
   type: NodePort
   ports:
     - port: 8082
-      targetPort: 8080
+      targetPort: 80
   selector:
     app: banking
